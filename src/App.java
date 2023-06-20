@@ -8,5 +8,6 @@ public class App {
         String informedEmail = in.nextLine();
         String json = api.verificateEmail(informedEmail);
         System.out.println(json);
+        in.close();
     }
 }
